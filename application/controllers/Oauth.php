@@ -70,7 +70,7 @@ class Oauth extends CI_Controller
 		{
    			 $msg = urlencode($msg);
    			 $ch = curl_init();
-   			 curl_setopt($ch, CURLOPT_URL,"http://103.247.98.91/API/SendMsg.aspx?uname=20181090&pass=9Q1Jp9oa&send=SKILLL&dest=$mbl&msg=$msg&priority=1");
+   			 curl_setopt($ch, CURLOPT_URL,"XXXXXXXXXXXXXXXXXXXXXXXXXXXX"); //sms api provider credentials
  			  curl_setopt($ch, CURLOPT_HEADER, 0);
  			  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
  			 if(curl_exec($ch))
